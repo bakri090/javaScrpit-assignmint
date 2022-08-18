@@ -1,7 +1,1 @@
-let flt = 10.4;
-
-console.log((Math.trunc(flt)).toString()); // 10
-console.log(Math.trunc(flt)); // 10
-console.log(flt.toFixed(0)); // 10
-console.log(Math.floor(flt)); // 10
- // 10
+console.log(Math.trunc((Math.random() * 4) + 0)); // 0 || 1 || 2 || 3 || 4
