@@ -1,3 +1,7 @@
-let num = 10;
+let flt = 10.4;
 
-console.log(Number.isInteger(parseInt(num)) + Number.isInteger(parseInt(num))); // 2
+console.log((Math.trunc(flt)).toString()); // 10
+console.log(Math.trunc(flt)); // 10
+console.log(flt.toFixed(0)); // 10
+console.log(Math.floor(flt)); // 10
+ // 10
